@@ -1,51 +1,27 @@
+import '../styles/Hero.css';
+import { FaGithub, FaLinkedin, FaEnvelope} from 'react-icons/fa';
+
 function Hero() {
   return (
-    <div style={styles.container}>
-      <div>
-        <h1 style={styles.name}>Sami Abushamat</h1>
-        <div style={styles.socials}>
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href="mailto:youremail@example.com">Email</a>
-        </div>
-      </div>
+  <div className="hero-container">
+    <img
+      src="/assets/profile.jpg"
+      alt="Sami Abushamat"
+      className="hero-image"
+    />
+
+    <div className="hero-info">
+      <h1 className="hero-name">sami abushamat</h1>
+      <p className="hero-bio">full stack ∙ mobile dev ∙ founder ∙ chicago</p>
+      <p className="hero-comment"> samiabushamat1@gmail.com if u want to hire me! i love simplicity</p>
     </div>
+
+    <div className="hero-links-vertical">
+      <a href="https://github.com/yourusername" className="hero-link" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+      <a href="https://linkedin.com/in/yourusername" className="hero-link" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+      <a href="mailto:samiabushamat1@gmail.com" className="hero-link"><FaEnvelope /></a>
+    </div>
+  </div>
   );
 }
-
-
-const styles = {
-  container: {
-    padding: '20px',
-    backgroundColor: '#000000',  // fixed hex code for black
-    borderRadius: '12px',
-    border: '1px solid #fff',
-    textAlign: 'center',
-    maxWidth: '700px',           // wider for rectangular shape
-    margin: '40px auto',
-    display: 'flex',
-    alignItems: 'center',
-    gap: '20px',
-    flexDirection: 'row',        // horizontal layout
-    justifyContent: 'center',
-  },
-  image: {
-    width: '100px',
-    height: '100px',
-    borderRadius: '50%',
-    objectFit: 'cover',
-  },
-  name: {
-    marginBottom: '10px',
-    fontSize: '24px',
-    color: '#fff',
-  },
-  socials: {
-    display: 'flex',
-    flexDirection: 'column',
-    gap: '8px',
-    color: '#fff',
-  },
-};
-
 export default Hero

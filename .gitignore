@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+# firebase
+.firebase
+.firebasesrc
+eslint.config.js
+firebase.json
