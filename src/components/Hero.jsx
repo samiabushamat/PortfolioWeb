@@ -11,9 +11,9 @@ function Hero() {
     />
 
     <div className="hero-info">
-      <h1 className="hero-name">sami abushamat</h1>
-      <p className="hero-bio">full stack ∙ mobile dev ∙ founder ∙ chicago</p>
-      <p className="hero-comment"> samiabushamat1@gmail.com if u want to hire me! i love simplicity</p>
+      <h1 className="hero-name">Sami Abushamat</h1>
+      <p className="hero-bio">Full Stack ∙ Mobile Dev ∙ Founder ∙ Chicago</p>
+      <p className="hero-comment">samiabushamat1@gmail.com If you want to hire me! I love simplicity</p>
     </div>
 
     <div className="hero-links-vertical">
