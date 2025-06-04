@@ -17,8 +17,8 @@ function Hero() {
     </div>
 
     <div className="hero-links-vertical">
-      <a href="https://github.com/yourusername" className="hero-link" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-      <a href="https://linkedin.com/in/yourusername" className="hero-link" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+      <a href="https://github.com/samiabushamat" className="hero-link" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+      <a href="https://linkedin.com/in/sami-abushamat/" className="hero-link" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
       <a href="mailto:samiabushamat1@gmail.com" className="hero-link"><FaEnvelope /></a>
     </div>
   </div>
