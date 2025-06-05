@@ -12,7 +12,7 @@ function Hero() {
 
     <div className="hero-info">
       <h1 className="hero-name">Sami Abushamat</h1>
-      <p className="hero-bio">Full Stack ∙ Mobile Dev ∙ Founder ∙ Chicago</p>
+      <p className="hero-bio">Full Stack ∙ Mobile Dev ∙ Freelancer ∙ Chicago</p>
       <p className="hero-comment">samiabushamat1@gmail.com If you want to hire me! I love simplicity</p>
     </div>
 
