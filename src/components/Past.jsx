@@ -9,6 +9,8 @@ function Past() {
             <p className='description'> I just finished my degree from the University of Illinois at Chicago</p>
             <a href= "https://www.passivepossibility.com/" className ='job' target='_blank' rel='noopener noreferrer'> Software Engineer Intern | PassivePossibility</a>
             <p className='description'> I worked and did some backend work last summer helping users keep track of their properties</p>
+            <a href= "https://www.apple.com/" className ='job' target='_blank' rel='noopener noreferrer'> Sales Specialist | Apple</a>
+            <p className='description'> I helped support customers with their purchases and inquiries and provided solutions to their problems.</p>
         </div>
     )
 }
