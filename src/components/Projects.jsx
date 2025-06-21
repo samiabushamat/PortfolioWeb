@@ -7,8 +7,8 @@ function Projects() {
             <div className='divider'></div>
             <a href= "https://steam-review-randomizer.web.app/" className ='job' target='_blank' rel='noopener noreferrer'> Steam Reviews</a>
             <p className='description'> Project I made for fun that allows you to find random reviews of steam games!</p>
-            <a href= "https://www.sublimeapplications.tech" className ='job' target='_blank' rel='noopener noreferrer'> H&RTime</a>
-            <p className='description'> Project I made for fun that allows you to find random reviews of steam games!</p>
+            <a href= "https://www.samiabushamat.com/" className ='job' target='_blank' rel='noopener noreferrer'> H&RTime</a>
+            <p className='description'> Project I made for a company that allows for user punches, saved them $1000 a year!</p>
             <a href= "https://github.com/samiabushamat/PlanItOut/blob/main/README.md" className ='job' target='_blank' rel='noopener noreferrer'> PlanItOut</a>
             <p className='description'> Group project that allows users to connect with people around them and create and join events</p>
             <a href= "https://github.com/djones59/Atelier" className='job' target='_blank' rel='noopener noreferrer'> Atelier</a>
